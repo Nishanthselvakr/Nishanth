@@ -1,13 +1,13 @@
 #include <stdio.h>
 int main()
 {
-    char c;
-    int isLowercaseVowel, isUppercaseVowel;
+    char n;
+    int LVowel, UcaseVowel;
     printf("Enter an alphabet: ");
     scanf("%c",&c);
-    isLowercaseVowel = (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u');
-    isUppercaseVowel = (c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U');
-    if (isLowercaseVowel || isUppercaseVowel)
+    isLVowel = (n == 'a' || n == 'e' || n == 'i' || n == 'o' || c == 'u');
+    isUVowel = (n == 'A' || n == 'E' || n == 'I' || n == 'O' || c == 'U');
+    if (LVowel || UVowel)
         printf("%c is a vowel.", c);
     else
         printf("%c is a consonant.", c);
