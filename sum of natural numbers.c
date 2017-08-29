@@ -1,14 +1,14 @@
 #include <stdio.h>
 int main()
 {
-    int n, i, sum = 0;
+    int n, k, sum = 0;
     
     printf("Enter a positive integer: ");
     scanf("%d",&n);
 
-    for(i=1; i <= n; ++i)
+    for(k=1; k <= n; ++k)
     {
-        sum += i;
+        sum += k;
     }
 
     printf("Sum = %d",sum);
